@@ -1,7 +1,7 @@
 # ILoveDrags
 A small plugin that fixes dragging behavior in older PH plugins.
 
-Installation
+## Installation
 
 Download and install:
 
