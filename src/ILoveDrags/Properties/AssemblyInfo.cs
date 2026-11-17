@@ -1,7 +1,8 @@
 using System.Reflection;
 using System.Runtime.InteropServices;
+using ILoveDrags;
 
-[assembly: AssemblyTitle(ILoveDrags.ILoveDrags.PluginName)]
+[assembly: AssemblyTitle(ILoveDragsPlugin.PluginName)]
 [assembly: AssemblyDescription("Drag handling for legacy plugins")]
 [assembly: AssemblyCompany("inviter42")]
 [assembly: AssemblyCopyright("Copyright ©  2026")]
@@ -9,5 +10,5 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 [assembly: Guid("FF7993BF-1E64-42D9-B052-2F8F30BE648B")]
 
-[assembly: AssemblyVersion(ILoveDrags.ILoveDrags.Version)]
+[assembly: AssemblyVersion(ILoveDragsPlugin.Version)]
 [assembly: AssemblyFileVersion("1.0.0.0")]
