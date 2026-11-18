@@ -11,4 +11,3 @@ using ILoveDrags;
 [assembly: Guid("FF7993BF-1E64-42D9-B052-2F8F30BE648B")]
 
 [assembly: AssemblyVersion(ILoveDragsPlugin.Version)]
-[assembly: AssemblyFileVersion("1.0.0.0")]
