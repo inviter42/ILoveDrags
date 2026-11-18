@@ -32,12 +32,15 @@ internal static class ReflectionUtils
         if (obj == null)
             return default;
 
+        if (fieldInfo == null)
+            return default;
+
         return (T)fieldInfo.GetValue(obj);
     }
 
     internal static object GetMethodInvocationResult(object obj, MethodInfo methodInfo, params object[] args) {
-        return obj == null
+        return obj == null || methodInfo == null
             ? null
-            : methodInfo?.Invoke(obj, args);
+            : methodInfo.Invoke(obj, args);
     }
 }
